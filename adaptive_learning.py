@@ -106,9 +106,7 @@ for record in range(len(dlist)):
                         else:
                             tasks_2_lines[dlist[record]['task_id']] = 1
 
-                iterated.append(lines[i])
-            else:
-                iterated.append(lines[i])
+            iterated.append(lines[i])
 
     except:
         pass
@@ -139,11 +137,8 @@ for record in range(len(dlist)):
                             tasks_3_lines[dlist[record]['task_id']] += 1
                         else:
                             tasks_3_lines[dlist[record]['task_id']] = 1
-                        
-
-                iterated.append(lines[i])
-            else:
-                iterated.append(lines[i])
+                    
+            iterated.append(lines[i])
 
     except:
         pass
