@@ -79,7 +79,7 @@ def debug_print(lines_num, dlist, lines, iterated):
     print('\n')
 
 
-# dva riadky po sebe
+# two line repetition
 for record in range(len(dlist)):
     try:
         iterated = ['']
@@ -111,7 +111,7 @@ for record in range(len(dlist)):
     except:
         pass
 
-# tri riadky po sebe
+# three line repetition
 for record in range(len(dlist)):
     try:
         iterated = ['']
@@ -143,8 +143,9 @@ for record in range(len(dlist)):
     except:
         pass
 
-
+print("2 repetitive line occurances:")
 print(counter_2)
+print("3 repetitive line occurances:")
 print(counter_3)
 
 show_graph(tasks_3_lines)
